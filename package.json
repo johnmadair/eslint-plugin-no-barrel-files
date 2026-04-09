@@ -8,6 +8,7 @@
     "watch": "tsc -p tsconfig.build.json --watch",
     "test": "vitest",
     "lint": "eslint .",
+    "prepare": "npm run build",
     "semantic-release": "semantic-release"
   },
   "files": [
